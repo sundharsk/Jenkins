@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    stage("Compile Build'){
+    stage('Compile Build'){
        steps{
           echo 'Hello World Compile Started'
           sh 'javac HelloWorld.java'
